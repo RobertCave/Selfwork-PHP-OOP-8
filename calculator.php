@@ -106,7 +106,7 @@ class Rettangolo {
 
  
 
-// Crea un rettangolo random con base 5 e altezza 10
+// Crea un rettangolo random  
 $randBase = rand(2, 10);
 $randAltezza = rand(1, 5); 
 $rettangolo = new Rettangolo($randBase, $randAltezza);
@@ -128,10 +128,5 @@ echo "Diagonale: " . $diagonale . "\n";
 
 
  
-
-?>
-
-
-
 
 ?>
